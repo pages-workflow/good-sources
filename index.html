@@ -1,1 +1,65 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dripless Plumbing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#maincontent">Skip to main content</a>
+  <header>
+    <img src="logo.svg" alt="Dripless Plumbing logo" width="64" height="64">
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#maincontent" aria-current="page">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+    <main id="maincontent" tabindex="-1">
+    <h1>Dripless Plumbing</h1>
+    <p>Your trusted local plumber offering prompt, professional service.</p>
+    <section>
+      <h2>Reliable and Accessible</h2>
+      <p>We keep your water flowing and your family safe.</p>
+      <p><a class="button" href="#contact">Request Service</a></p>
+    </section>
+    <section id="services">
+      <h2>Services</h2>
+      <section>
+        <h3>Emergency Repairs</h3>
+        <p>24/7 assistance for leaks and burst pipes.</p>
+      </section>
+      <section>
+        <h3>Installations</h3>
+        <p>Professional setup for fixtures and appliances.</p>
+      </section>
+      <section>
+        <h3>Maintenance</h3>
+        <p>Regular checkups to prevent costly issues.</p>
+      </section>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <section>
+        <h3>Request Service</h3>
+        <form action="mailto:service@driplessplumbing.example" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Message</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+        <p>Prefer to speak with us directly? <a href="tel:+18005551234">Call 1-800-555-1234</a></p>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Dripless Plumbing</p>
+  </footer>
+</body>
+</html>
