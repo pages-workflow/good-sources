@@ -30,10 +30,6 @@ nav a:focus {
   text-decoration: underline;
 }
 
-nav a:focus {
-  outline: 2px solid #ffffff;
-  outline-offset: 2px;
-}
 
 .skip-link {
   position: absolute;
